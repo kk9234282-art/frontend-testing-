@@ -23,12 +23,12 @@ npm start
 ## Prototype behavior
 
 - Local company search, sector/industry/market-cap/exchange filters, and useful empty states.
-- Business-area tabs and a five-step cargo journey with changing service/revenue explanations.
-- Expandable risks, anchored section navigation, and persistent light/dark themes.
+- Concise business-area explanations and a visible five-step cargo journey with expandable revenue details.
+- Scannable risk bullets, anchored section navigation, and persistent light/dark themes.
 - Responsive mobile navigation, charts, and directory.
 - Optional illustrative financial charts with tooltips and revenue/profit/margin selection.
 
-Adani Ports is the only complete **qualitative prototype**. All other companies are UI examples. Financial values and historical periods are deliberately unpopulated; optional chart samples use arbitrary units and are not company data. Company information requires document-level source verification before publication. Corporate website access was blocked during development, so no unverified external source link is exposed.
+Adani Ports is the only complete **qualitative prototype**. All other companies are UI examples. Financial metric cards reproduce user-provided screenshot values for FY2025–26, prominently labeled unverified. They are not independently verified company results. Optional chart samples use arbitrary units and are not company data. Company information requires document-level source verification before publication. Corporate website access was blocked during development, so no unverified external source link is exposed.
 
 The port artwork is a custom, locally bundled SVG. No external assets or fonts are required. Design tokens and responsive rules are in `app/globals.css`; reusable interactive components are in `components`; local example data is in `lib/data.ts`.
 
